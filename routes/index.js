@@ -4,7 +4,7 @@ const fetch = require('axios');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Cat Napps' });
+  res.render('index', { title: 'Cat Nip' });
 });
 // GET /cats/facts
 router.get('/cats/fact', async function(req, res) {
